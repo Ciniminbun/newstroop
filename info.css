@@ -21,7 +21,7 @@ text-align: center;
 
 footer {font-family: 'Oswald', sans-serif;
 text-align: center;
-background-color: FFFFFF;
+background-color: 1f1f1f;
 font-size: 15px;
 position: fixed;
 bottom: 0;
@@ -33,7 +33,7 @@ border-top-width: 0.5em;
 margin: auto;
 }
 
-footer a {color: 1f1f1f; 
+footer a {color: FFFFFF; 
 }
 
 footer a:hover {color: ff5757; 
@@ -50,16 +50,6 @@ font-family: 'Oswald', sans-serif;
 
 #wrap {margin: auto;
 width: 90%;
-}
-
-.footerbg {font-family: 'Oswald', sans-serif;
-text-align: center;
-background-color: FFFFFF;
-font-size: 12px;
-position: fixed;
-bottom: 0;
-width: 100%;
-margin: auto;
 }
 
 .navbar {overflow: hidden;
