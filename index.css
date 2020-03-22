@@ -59,19 +59,25 @@ border-bottom-color: ff5757;
 border-bottom-width: 0.5em;
 box-shadow: -5px 7px #888888;
 background-color: FFFFFF;
+width: 100%;
 }
 
 #card img {grid-column: 1 / 2;
 width: 100%;
+margin: 3%;
 }
 
 #card div {grid-column: 2 / 3;
 width: 100%;
+padding: 2%;
 }
 
 #card a {color: 1f1f1f;
 font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
 }
+
+#card a:hover {color: ff5757;}
 
 #thumb {width: 100%;
 height: auto;
