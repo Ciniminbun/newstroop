@@ -93,9 +93,6 @@ font-family: 'Oswald', sans-serif;
 font-size: 19px;
 }
 
-.navbar img { height: 80px
-}
-
 @media only screen and (orientation: landscape) {
 
 #wrap {width: 65%;
