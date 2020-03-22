@@ -42,8 +42,7 @@ main {margin: auto;
 display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto;
-grid-column-gap: 0;
-grid-row-gap: 5%;
+grid-row-gap: 2%;
 }
 
 nav {height: 7em}
