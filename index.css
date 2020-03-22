@@ -109,5 +109,10 @@ font-size: 19px;
 .navbar img { height: 50px
 }
 
+footer {width: 60%;
+left: 20%;
+font-size: 12px;
+}
+
 nav {height: 5em}
 }
