@@ -34,6 +34,10 @@ footer a {color: 1f1f1f;
 footer a:hover {color: ff5757; 
 }
 
+#thumb {width: 100%;
+height: auto;
+}
+
 #date {font-size: 0.7em;
 font-weight: 500;
 letter-spacing: 0.2px;
@@ -46,7 +50,8 @@ border-bottom: solid;
 border-bottom-color: ff5757;
 }
 
-#wrap {margin: auto;
+#wrap {margin-right: auto;
+margin-left: auto;
 width: 90%;
 }
 
@@ -85,9 +90,26 @@ font-family: 'Oswald', sans-serif;
 }
 
 @media only screen and (orientation: landscape) {
-body {width: 60%;
+#wrap {width: 65%;
+display: grid;
+grid-template-columns: 50% 1fr;
+grid-template-rows: auto auto auto 300px;
 }
-
+#thumb {grid-row: 1 / 2;
+grid-column: 1 / 3;
+}
+#related {grid-row: 2 / 3;
+grid-column: 1 / 2;
+}
+main {grid-row: 2 / 3;
+grid-column: 2 / 3;
+}
+#line {grid-row: 3 / 4;
+grid-column: 1 / 3;
+}
+footer {grid-row: 1 / 3;
+grid-column: 1 / 5;
+}
 }
 </style>
 </head>
@@ -97,11 +119,13 @@ body {width: 60%;
   <a href="index.html">NEWS TROOP</a>
   <p>aa</P>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 <div id="wrap">
-<br>
-<br>
-<br>
-<img src="https://lh5.googleusercontent.com/kQqRc4YL5_9swLrlSMy0AKNi5jK2-fN69pAhtHFrbfHpcxUj6Dab-573QBA1YvRsaChsIpZwnHXWAMXLzBBlHHFAVfd7ca7eRYwNnPr7kWlnUbP11Lw=w1280">
+<img id="thumb" src="https://lh5.googleusercontent.com/kQqRc4YL5_9swLrlSMy0AKNi5jK2-fN69pAhtHFrbfHpcxUj6Dab-573QBA1YvRsaChsIpZwnHXWAMXLzBBlHHFAVfd7ca7eRYwNnPr7kWlnUbP11Lw=w1280">
 <br><br><br>
 <div id="related">
 <b>Related</b>
@@ -116,6 +140,7 @@ body {width: 60%;
 </p>
 </div>
 <br>
+<main>
 <header>
 <h1> <!-- headline copies first sentence from article -->
 Headline
@@ -143,6 +168,7 @@ I didn't go to the doctor for months and months because I just didn't have the i
 I didn't go to the doctor for months and months because I just didn't have the information to understand how dangerous it was and to know what to do next. I still had zero comfort that all of this could end that way, so I went to school and I kept doing what I had always been doing. I graduated in 2010, with no medical training. I was 27, and I had a huge student loan.
 
 </div>
+</main>
 <br>
 <br>
 <div id="line"> </div>
