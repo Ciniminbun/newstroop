@@ -44,6 +44,15 @@ p {line-height: 2em;
 
 nav {height: 7em}
 
+#qt {font-size:21px;
+color: ff5757;
+line-height: 1.5em;
+}
+
+#qtcol {width: 50%;
+margin: auto;
+}
+
 #date {font-size: 12px;
 font-family: 'Oswald', sans-serif;
 }
@@ -51,6 +60,8 @@ font-family: 'Oswald', sans-serif;
 #wrap {margin: auto;
 width: 90%;
 }
+
+#Oswald {font-family: 'Oswald', sans-serif;}
 
 .navbar {overflow: hidden;
 background-color: 1f1f1f;
