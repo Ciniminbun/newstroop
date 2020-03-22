@@ -22,10 +22,10 @@ text-align: center;
 footer {font-family: 'Oswald', sans-serif;
 text-align: center;
 background-color: FFFFFF;
-font-size: 12px;
+font-size: 15px;
 position: fixed;
 bottom: 0;
-left: 11%;
+left: 9%;
 width: 80%;
 border-top: solid;
 border-top-color: ff5757;
@@ -90,6 +90,7 @@ font-size: 19px;
 
 footer {width: 60%;
 left: 20%;
+font-size: 12px;
 }
 
 nav {height: 5em}
