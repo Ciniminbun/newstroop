@@ -47,7 +47,6 @@ grid-row-gap: 8%;
 
 nav {height: 7em}
 
-
 #card {margin: auto;
 display: grid;
 grid-template-columns: 40% 1fr;
