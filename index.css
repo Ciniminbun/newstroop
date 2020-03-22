@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {font-family: 'Open Sans', sans-serif;
+color: 1f1f1f;
+margin: 0;
+font-size: 19px;
+}
+
+div {line-height: 27px;
+font-size: 19px;
+}
+
+header {font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-size: 17px;
+}
+
+footer {font-family: 'Oswald', sans-serif;
+text-align: center;
+background-color: 1f1f1f;
+font-size: 15px;
+position: fixed;
+bottom: 0;
+left: 9%;
+width: 80%;
+border-top: solid;
+border-top-color: ff5757;
+border-top-width: 0.5em;
+margin: auto;
+}
+
+footer a {color: FFFFFF; 
+}
+
+footer a:hover {color: ff5757; 
+}
+
+main {border-bottom: solid;
+border-bottom-color: ff5757;
+border-bottom-width: 0.5em;
+}
+
+nav {height: 7em}
+
+#thumb {width: 100%;
+height: auto;
+}
+
+#date {font-size: 0.7em;
+font-weight: 500;
+letter-spacing: 0.2px;
+font-family: 'Oswald', sans-serif;
+}
+
+#line {margin: auto;
+border-bottom-width: 20000px;
+border-bottom: solid;
+border-bottom-color: ff5757;
+}
+
+#wrap {margin: auto;
+width: 90%;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto;
+grid-column-gap: 0;
+grid-row-gap: 1%;
+}
+
+#related {font-weight: 700;
+font-size: 19px;
+}
+
+#related a {
+color: ff5757;
+font-size: 18px;
+}
+
+#related a:hover {
+color: 1f1f1f;
+font-size: 18px;
+}
+
+.navbar {overflow: hidden;
+background-color: 1f1f1f;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%;
+padding-left: 23px;
+}
+
+.navbar a {float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 0.7em 0.8em;
+text-decoration: none;
+font-family: 'Oswald', sans-serif;
+font-size: 19px;
+}
+
+@media only screen and (orientation: landscape) {
+
+#wrap {width: 65%;
+}
+
+.navbar img { height: 50px
+}
+
+nav {height: 5em}
+}
