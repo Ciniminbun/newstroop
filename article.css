@@ -19,6 +19,9 @@ text-transform: uppercase;
 font-size: 17px;
 }
 
+header h1 {line-height: 1.2em;
+}
+
 footer {font-family: 'Oswald', sans-serif;
 text-align: center;
 background-color: 1f1f1f;
@@ -63,7 +66,7 @@ border-bottom-color: ff5757;
 }
 
 #wrap {margin: auto;
-width: 90%;
+width: 85%;
 display: grid;
 grid-template-columns: auto;
 grid-template-rows: auto;
@@ -73,6 +76,8 @@ box-shadow: -6px 10px #888888;
 background-color: FFFFFF;
 padding: 20px;
 padding-bottom: 100px;
+padding-left: 5%;
+padding-right: 5%;
 }
 
 #related {font-weight: 700;
@@ -141,7 +146,8 @@ grid-column: 2 / 3;
 }
 
 footer {width: 60%;
-left: 20%;
+left: 0;
+right: 0;
 font-size: 12px;
 }
 

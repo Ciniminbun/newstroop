@@ -90,7 +90,8 @@ font-size: 19px;
 }
 
 footer {width: 60%;
-left: 20%;
+left: 0;
+right: 0;
 font-size: 12px;
 }
 
