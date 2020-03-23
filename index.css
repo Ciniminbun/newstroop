@@ -43,7 +43,7 @@ display: flex;
 flex-direction: column;
 }
 
-nav {height: 7em}
+nav {height: 5.6em}
 
 
 #card {margin: auto;
@@ -121,6 +121,32 @@ color: 1f1f1f;
 font-size: 18px;
 }
 
+#banner {width: 100%;
+height: auto;
+margin-bottom: 5%;
+right: 20%;
+background-color: 313131;
+background-image: url("images/homebanner.jpg");
+color: FFFFFF;
+text-align: center;
+padding-top: 15%;
+padding-bottom: 10%;
+}
+
+#banner header {font-size: 3em;
+margin-bottom: 1em;
+}
+
+#banner p {border-top: solid;
+border-top-color: ff5757;
+border-top-width: 10px;
+padding-top: 30px;
+margin-left: auto;
+margin-right: auto;
+width: 20em;
+font-weight: bold;
+}
+
 .navbar {overflow: hidden;
 background-color: 1f1f1f;
 position: fixed; /* Set the navbar to fixed position */
@@ -137,6 +163,16 @@ padding: 0.7em 0.8em;
 text-decoration: none;
 font-family: 'Oswald', sans-serif;
 font-size: 19px;
+}
+
+.navbartwit {position: fixed;
+top: 6px;
+width: 100%;
+margin-left: 40%;
+}
+
+.navbartwit img {float: right;
+padding-right: 45%;
 }
 
 @media only screen and (orientation: landscape) {
@@ -173,7 +209,16 @@ font-size: 1em;
 #wrap {width: 65%;
 }
 
+#banner{padding-top: 5%;
+padding-bottom: 3%;
+}
+
 .navbar img { height: 50px
+}
+
+.navbartwit img { height: 60px;
+top: 6px;
+padding-right: 2em;
 }
 
 footer {width: 60%;
@@ -182,7 +227,13 @@ right: 0;
 font-size: 12px;
 }
 
-nav {height: 5em}
+nav {height: 4em}
+
+.navbartwit {margin-left: 9%;}
+
+.navbartwit img { height: 60px;
+top: 6px;
+padding-right: 11%;
 }
 
-main {grid-row-gap: 2%;}
+}

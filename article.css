@@ -45,6 +45,13 @@ footer a:hover {color: ff5757;
 main {border-bottom: solid;
 border-bottom-color: ff5757;
 border-bottom-width: 0.5em;
+color: 1f1f1f;
+}
+
+#link {color: ff5757; 
+}
+
+#link:hover {color: 1f1f1f; 
 }
 
 nav {height: 7em}
@@ -113,9 +120,19 @@ font-family: 'Oswald', sans-serif;
 font-size: 19px;
 }
 
+.navbartwit {position: fixed;
+top: 6px;
+width: 100%;
+margin-left: 40%;
+}
+
+.navbartwit img {float: right;
+padding-right: 45%;
+}
+
 @media only screen and (orientation: landscape) {
 
-#wrap {width: 65%;
+#wrap {width: 50%;
 display: grid;
 grid-template-columns: 30% 1fr;
 grid-template-rows: auto;
@@ -152,4 +169,15 @@ font-size: 12px;
 }
 
 nav {height: 5em}
+
+.navbar img { height: 50px
+}
+
+.navbartwit {margin-left: 9%;}
+
+.navbartwit img { height: 60px;
+top: 6px;
+padding-right: 11%;
+}
+
 }
