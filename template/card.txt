@@ -1,0 +1,21 @@
+<div id="card"> <!-- article # -->
+<img src="images/g_articles/
+g22
+.png">
+<div>
+<p>
+<a href="articles/
+g22
+.html">
+PRENSIDINT DORNLAND TRUP SENE EATIN RAW DOUGH
+</a>
+</p>
+<p>
+DANG IS THIS PARADISE Or?
+</p>
+<p id="date">
+March 10, 2020
+</p>
+</div>
+</div> <!-- Article # should be copied at lines 3 and 8, and at the top comment;
+			Article headline should be copied at line 10; Description at line 14; Date at line 17-->
