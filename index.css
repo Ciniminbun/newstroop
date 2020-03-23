@@ -24,8 +24,8 @@ background-color: 1f1f1f;
 font-size: 15px;
 position: fixed;
 bottom: 0;
-left: 9%;
-width: 80%;
+right: 0;
+width: 100%;
 border-top: solid;
 border-top-color: ff5757;
 border-top-width: 0.5em;
@@ -177,7 +177,8 @@ font-size: 1em;
 }
 
 footer {width: 60%;
-left: 20%;
+left: 0;
+right: 0;
 font-size: 12px;
 }
 
