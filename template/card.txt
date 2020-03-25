@@ -1,21 +1,20 @@
 <div id="card"> <!-- article # -->
-<img src="images/g_articles/
-g22
-.png">
+<img src="images/articles/
+032420
+.jpg">
 <div>
 <p>
 <a href="articles/
-g22
+032420
 .html">
-PRENSIDINT DORNLAND TRUP SENE EATIN RAW DOUGH
+Barack Obama Declares Rotisserie Chicken Favorite Food
 </a>
 </p>
 <p>
-DANG IS THIS PARADISE Or?
+Little more than a few years ago, Barack Obama, the first Black man to be elected president, was speaking about his family's favorite food, rotisserie chicken, during a campaign stop in New Hampshire.
 </p>
 <p id="date">
-March 10, 2020
+September 31, 0002
 </p>
 </div>
-</div> <!-- Article # should be copied at lines 3 and 8, and at the top comment;
-			Article headline should be copied at line 10; Description at line 14; Date at line 17-->
+</div> <!-- Article # should be copied at lines 3 and 8, and at the top comment; Article headline should be copied at line 10; Description at line 14; Date at line 17-->
