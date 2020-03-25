@@ -22,14 +22,15 @@ footer {font-family: 'Oswald', sans-serif;
 text-align: center;
 background-color: 1f1f1f;
 font-size: 25px;
-position: fixed;
 bottom: 0;
-right: 0;
+left: 0;
 width: 100%;
+position: fixed;
 border-top: solid;
 border-top-color: ff5757;
 border-top-width: 0.5em;
-margin: auto;
+padding-top: 12px;
+padding-bottom: 20px;
 }
 
 footer a {color: FFFFFF; 
@@ -109,6 +110,7 @@ grid-row-gap: 1%;
 
 #related {font-weight: 700;
 font-size: 19px;
+text-transform: uppercase;
 }
 
 #related a {
@@ -223,9 +225,8 @@ padding-right: 11%;
 padding-top: 0;
 }
 
-footer {width: 60%;
+footer {width: 100%;
 left: 0;
-right: 0;
 font-size: 12px;
 }
 

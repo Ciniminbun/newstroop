@@ -6,6 +6,7 @@ color: 1f1f1f;
 margin: 0;
 font-size: 19px;
 background-color: e0e0e0;
+width: 100%;
 }
 
 div {line-height: 27px;
@@ -26,14 +27,15 @@ footer {font-family: 'Oswald', sans-serif;
 text-align: center;
 background-color: 1f1f1f;
 font-size: 25px;
-position: fixed;
 bottom: 0;
-right: 0;
+left: 0;
 width: 100%;
+position: fixed;
 border-top: solid;
 border-top-color: ff5757;
 border-top-width: 0.5em;
-margin: auto;
+padding-top: 12px;
+padding-bottom: 20px;
 }
 
 footer a {color: FFFFFF; 
@@ -89,6 +91,7 @@ padding-right: 5%;
 
 #related {font-weight: 700;
 font-size: 19px;
+overflow: hidden;
 }
 
 #related a {
@@ -100,6 +103,8 @@ font-size: 18px;
 color: 1f1f1f;
 font-size: 18px;
 }
+
+#related p {text-transform: uppercase;}
 
 .navbar {overflow: hidden;
 background-color: 1f1f1f;
@@ -163,7 +168,7 @@ grid-column: 2 / 3;
 .navbar img { height: 50px
 }
 
-footer {width: 60%;
+footer {width: 100%;
 left: 0;
 right: 0;
 font-size: 12px;
