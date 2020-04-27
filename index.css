@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {font-family: 'Open Sans', sans-serif;
-color: 1f1f1f;
-background-color: e0e0e0;
+color: #1f1f1f;
+background-color: #e0e0e0;
 margin: 0;
 font-size: 19px;
 }
@@ -20,23 +20,23 @@ font-size: 17px;
 
 footer {font-family: 'Oswald', sans-serif;
 text-align: center;
-background-color: 1f1f1f;
+background-color: #1f1f1f;
 font-size: 25px;
 bottom: 0;
 left: 0;
 width: 100%;
 position: fixed;
 border-top: solid;
-border-top-color: ff5757;
+border-top-color: #ff5757;
 border-top-width: 0.5em;
 padding-top: 12px;
 padding-bottom: 20px;
 }
 
-footer a {color: FFFFFF; 
+footer a {color: #FFFFFF; 
 }
 
-footer a:hover {color: ff5757; 
+footer a:hover {color: #ff5757; 
 }
 
 main {margin: auto;
@@ -54,10 +54,10 @@ grid-template-rows: auto;
 grid-column-gap: 2%;
 grid-row-gap: 0;
 border-bottom: solid;
-border-bottom-color: ff5757;
+border-bottom-color: #ff5757;
 border-bottom-width: 0.5em;
 box-shadow: -5px 7px #888888;
-background-color: FFFFFF;
+background-color: #FFFFFF;
 width: 100%;
 margin-bottom: 60px;
 }
@@ -77,11 +77,11 @@ padding: 2%;
 #card p {padding-right: 10%;
 }
 
-#card a {color: 1f1f1f;
+#card a {color: #1f1f1f;
 font-family: 'Oswald', sans-serif;
 }
 
-#card a:hover {color: ff5757;}
+#card a:hover {color: #ff5757;}
 
 #thumb {width: 100%;
 height: auto;
@@ -96,7 +96,7 @@ font-family: 'Oswald', sans-serif;
 #line {margin: auto;
 border-bottom-width: 20000px;
 border-bottom: solid;
-border-bottom-color: ff5757;
+border-bottom-color: #ff5757;
 }
 
 #wrap {margin: auto;
@@ -114,12 +114,12 @@ text-transform: uppercase;
 }
 
 #related a {
-color: ff5757;
+color: #ff5757;
 font-size: 18px;
 }
 
 #related a:hover {
-color: 1f1f1f;
+color: #1f1f1f;
 font-size: 18px;
 }
 
@@ -127,9 +127,9 @@ font-size: 18px;
 height: auto;
 margin-bottom: 5%;
 right: 20%;
-background-color: 313131;
+background-color: #313131;
 background-image: url("images/homebanner.jpg");
-color: FFFFFF;
+color: #FFFFFF;
 text-align: center;
 padding-top: 15%;
 padding-bottom: 10%;
@@ -140,7 +140,7 @@ margin-bottom: 1em;
 }
 
 #banner p {border-top: solid;
-border-top-color: ff5757;
+border-top-color: #ff5757;
 border-top-width: 10px;
 padding-top: 30px;
 margin-left: auto;
@@ -150,7 +150,7 @@ font-weight: bold;
 }
 
 .navbar {overflow: hidden;
-background-color: 1f1f1f;
+background-color: #1f1f1f;
 position: fixed; /* Set the navbar to fixed position */
 top: 0; /* Position the navbar at the top of the page */
 width: 100%;
@@ -187,10 +187,10 @@ grid-template-rows: auto;
 grid-column-gap: 2%;
 grid-row-gap: 1%;
 border-bottom: solid;
-border-bottom-color: ff5757;
+border-bottom-color: #ff5757;
 border-bottom-width: 0.5em;
 box-shadow: -5px 7px #888888;
-background-color: FFFFFF;
+background-color: #FFFFFF;
 width: 100%;
 margin-bottom: 20px;
 }
