@@ -503,6 +503,10 @@ footer {
 	line-height: 25px;
 }
 
+footer a {
+	padding: 0;
+}
+
 .article {
 	display: grid;
 	grid-gap: 30px;
