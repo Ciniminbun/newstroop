@@ -1,0 +1,20 @@
+<div id="card"> <!-- article # -->
+<img src="images/articles/
+
+.gif">
+<div>
+<p>
+<a href="articles/
+
+.html">
+
+</a>
+</p>
+<p>
+
+</p>
+<p id="date">
+
+</p>
+</div>
+</div> <!-- Article # should be copied at lines 3 and 8, and at the top comment; Article headline should be copied at line 10; Description at line 14; Date at line 17-->
