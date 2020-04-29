@@ -3,6 +3,7 @@
 <head>
 	<title>NEWS TROOP HOME</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=600">
 	<meta name="description" content="News items from 2012 and 2013.  When it's dead, who cares anymore?  (Kinda a take on your lunch?)">
 	<meta property="og:title" content="NEWS TROOP">
 	<meta property="og:description" content="News items from 2012 and 2013.  When it's dead, who cares anymore?  (Kinda a take on your lunch?)">
@@ -48,18 +49,18 @@
 	<script>
 		function myFunction(x) {
 			if (x.matches) { // If media query matches
-				document.getElementById("mySidenav").style.width = "0";
-			} else {
 				document.getElementById("mySidenav").style.width = "100%";
+			} else {
+				document.getElementById("mySidenav").style.width = "0";
 			}
 		}
 
-		var x = window.matchMedia("(orientation: portrait)")
+		var x = window.matchMedia("(min-width: 1000px)")
 		myFunction(x) // Call listener function at run time
 		x.addListener(myFunction) // Attach listener function on state changes
 		
 		function openNav() {
-		document.getElementById("mySidenav").style.width = "40vw";
+		document.getElementById("mySidenav").style.width = "60vw";
 		}
 
 		function closeNav() {
