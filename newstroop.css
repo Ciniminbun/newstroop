@@ -331,7 +331,8 @@ footer a:hover {
 }
 
 
-@media only screen and (min-width: 1000px) {
+
+@media only screen and (min-width: 600px) {
 
 body {
 	font-size: 15px;
@@ -435,12 +436,6 @@ main h2 {
 .articlefeed {
 	grid-row: 2/3;
 	grid-column: 1/2;
-}
-
-.twitfeed {
-	display: block;
-	grid-row: 2/3;
-	grid-column: 2/3;
 }
 
 .latest {
@@ -624,6 +619,16 @@ footer a {
 	box-shadow: 0 1vw 3vw 0 rgba(0,0,0,0.24), 0 1vw 3vw 0 rgba(0,0,0,0.19);
 }
 
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+.twitfeed {
+	display: block;
+	grid-row: 2/3;
+	grid-column: 2/3;
+}
 
 }
 
