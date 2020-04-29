@@ -28,8 +28,8 @@ header {
 	background-repeat: no-repeat;
 	width: 100%;
 	color: #FFFFFF;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10vw;
+	padding-bottom: 8vw;
 }
 
 header img {
@@ -331,7 +331,7 @@ footer a:hover {
 }
 
 
-@media only screen and (orientation: landscape) {
+@media only screen and (min-width: 1000px) {
 
 body {
 	font-size: 15px;
