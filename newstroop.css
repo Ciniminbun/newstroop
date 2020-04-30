@@ -451,6 +451,7 @@ main h2 {
 	border-color: #d3d3d3;
 	margin-top: 20px;
 	padding-bottom: 20px;
+	grid-template-columns: 25% auto;
 }
 
 .card img {
@@ -462,7 +463,7 @@ main h2 {
 
 .carddetails {
 	grid-column-start: 2;
-	grid-column-end: 4;
+	grid-column-end: 3;
 }
 
 .carddetails h3 {
@@ -636,6 +637,26 @@ footer a {
 	grid-row: 1/2;
 }
 
+.latest .card h3 {
+	font-size: 10px;
+}
+
+.latest #first h3 {
+	font-size: 20px;
+}
+
+.latest .card {
+	grid-template-columns: 33% auto;
+}
+
+.latest #first {
+	grid-template-columns: 25% auto;
+}
+
+.latest #first p {
+	font-size: 20px;
+}
+
 
 }
 
@@ -658,7 +679,7 @@ main {
 .article {
 	grid-gap: 25px;
 	width: 50%;
-	grid-template-rows: 150px 230px auto;
+	grid-template-rows: auto 230px auto;
 }
 
 .article h1 {
@@ -676,8 +697,6 @@ main {
 .article .authdate {
 	font-size: 0.8em;
 	margin-bottom: 0;
-	grid-column: 2/3;
-	grid-row: 2/3;
 }
 
 .article .content {
