@@ -335,6 +335,10 @@ footer a:hover {
 	box-shadow: 0 1vw 3vw 0 rgba(0,0,0,0.24), 0 1vw 3vw 0 rgba(0,0,0,0.19);
 }
 
+.articlestream .carddetails h3 a {
+	font-size: 0.8em;
+}
+
 
 
 @media only screen and (min-width: 600px) {
