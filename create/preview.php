@@ -69,13 +69,73 @@
 		}
 	</script>
 
-<main>
+<main class="article">
 
-<?php
+		<img src="../images/articles/
+060220
+		.png" class="thumb">
+
+		<div class="content">
+			<h1>
+			<?php
 	
-	$title = $_POST["title"];
-	echo $title
-?>
+				$title = $_POST["title"];
+				echo $title
+			?>
+			</h1>
+		<div class="authdate"> <!-- random name pulled from list • all date numbers randomly generated -->
+			<?php
+	
+				$author = $_POST["author"];
+				echo $author
+			?>
+ • 
+			<?php
+	
+				$date = $_POST["date"];
+				echo $date
+			?>
+		</div>
+
+		<div> <!-- article body here -->
+
+		<?php
+	
+			$body = $_POST["body"];
+			echo $body
+		?>
+
+		</div>
+		</div>
+
+		<div class="related">
+			<h2>Related</h2>
+			<a href="..articles/
+g13
+			.html">• 
+GEORGE SCHUTTE SHOW: INTERVIEW WITH INTERNET CELEBRITY XXGRUNTILDA_FUCKER
+			</a>
+			
+			<a href="..articles/
+051520
+			.html">• 
+LEAKED SCOOB! SCRIPT REVEALS DARK SECRETS
+			</a>
+			
+			<a href="..articles/
+032520
+			.html">• 
+TOP TEN GAYMER MOMENTS
+			</a>
+			
+		</div>
+		
+		<span>
+			<a href="../articles.html">All Articles</a>
+			<a href="../generator.html">Make an Article</a>
+			<a href="../info.html">More Info</a>
+		</span>
+
 
 </main>
 
