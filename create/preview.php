@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<title>NEWS TROOP | Create</title>
+	<title>NEWS TROOP | Preview</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=500">
 	<meta name="description" content="not finished, turn back while ye can">
@@ -30,6 +30,7 @@
 	<link rel="stylesheet" href="newstroop.css">
 </head>
 <body>
+
 	<header>
 		<img src="images/navlogo.png" height="30px" width="auto" alt="NEWS TROOP logo">
 		<h3>THE NEWS THATS LEFT FROM THE BRIDE</h3>
@@ -67,22 +68,18 @@
 		document.getElementById("mySidenav").style.width = "0";
 		}
 	</script>
+
+<main>
+
+<?php
 	
-	<main style="max-width: 700px;">
-		<h1 style="text-align: center;">CREATE</h1>
-		<h3 style="text-align: center;">Sorry, this isn't ready yet.</h3>
-		<p style="text-align: center;">Fill in the information to create a sample newstroop article.</p>
-		<form method="post" action="create/preview.php" class="gen_form">
-			<label for="title">Title:</label><input type="text" name="title" id="title" required="required" placeholder="">
-			<label for="date">Date:</label><input type="text" name="date" id="date" required="required" placeholder="anything just go wild">
-			<label for="author">Author:</label><input type="text" name="author" id="author" required="required" placeholder="fake name from staff page">
-			<label for="body">Body:</label><textarea name="myComments" id="myComments" rows="10" cols="10" required="required" placeholder=""></textarea>
-			<br>
-			<button type="submit">Preview Article</button>
-		</form>
-	</main>
-	
-	<footer>
+	$title = $_POST["title"];
+	echo $title
+?>
+
+</main>
+
+<footer>
 	Copyright &copy; 2020 NewsTroop
 	<br>
 	<a href="info/about.html">About</a> • 
@@ -93,5 +90,6 @@
 	<a href="mailto:ciniminbun@gmail.com">ciniminbun@gmail.com</a> • 
 	<a href="https://cinimin.net/">cinimin.net</a>
 	</footer>
+
 </body>
 </html>
