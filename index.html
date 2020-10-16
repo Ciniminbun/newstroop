@@ -29,6 +29,7 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="newstroop.css">
+	
 </head>
 <body>
 	<header>
@@ -45,36 +46,19 @@
 		<a href="generator.html">create</a>
 	</nav>
 	
+	<script type="text/javascript" src="navAnim.js"></script>
+
 	<div class="navbutton"><span onclick="openNav()">&#9776;</span></div>
-	
-	<script>
-		function myFunction(x) {
-			if (x.matches) { // If media query matches
-				document.getElementById("mySidenav").style.width = "100%";
-			} else {
-				document.getElementById("mySidenav").style.width = "0";
-			}
-		}
 
-		var x = window.matchMedia("(min-width: 600px)")
-		myFunction(x) // Call listener function at run time
-		x.addListener(myFunction) // Attach listener function on state changes
-		
-		function openNav() {
-		document.getElementById("mySidenav").style.width = "60vw";
-		}
-
-		function closeNav() {
-		document.getElementById("mySidenav").style.width = "0";
-		}
-	</script>
-	
 	<main>
 		<div class="intro">
 			<h2>What's new at News Troop?</h2>
 			<p>News items from 2012 and 2013.  When it's dead, who cares anymore?  (Kinda a take on your lunch?) the Wedding - (Spots That You Can Actually Use in The Day to Day) Competency Training (Phew! Finally! ) Leaving Before The Bride - Move Out! I was planning on giving this a post about 10 years from now.  But as I was planning, someone else handed me a wedding I'd worked on 10 years ago and thought it would be fun to bring it back to the world.</p>
 		</div>
 		
+		<script type="text/javascript" src="scripts/randomNews.js"></script>
+		<a class="randomNews" onclick="randomNews()"><div>random</div></a>
+
 		<div class="articlestream">
 			<h2>Latest Articles</h2>
 				<div>
@@ -135,10 +119,6 @@
 				
 				</div>
 			<a href="articles.html"><h3>All Articles</h3></a>
-		</div>
-		<div class="twitfeed">
-			<a class="twitter-timeline" data-lang="en" data-width="100%" data-height="100%" data-theme="dark" href="https://twitter.com/NewsTroop?ref_src=twsrc%5Etfw">Tweets by NewsTroop</a> 
-			<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
 	</main>
 	

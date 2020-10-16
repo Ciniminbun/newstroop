@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test one</title>
+</head>
+<body>
+    <script>
+        var url = "info.js";
+        
+        $.getScript(url, function(){
+            $(document).ready(function(){
+                document.write(str); // Prints: Hi there!
+                console.log(num); // Prints: 15
+                console.log(multiplyNumbers(4, 25)); // Prints: 100
+            });
+        });
+    </script>
+</body>
+
+
+</html>
