@@ -179,6 +179,7 @@ main h2 {
 	border-color: #d3d3d3;
 	margin-top: 3vw;
 	padding-bottom: 3vw;
+	overflow: hidden;
 }
 
 .card img {
@@ -352,7 +353,14 @@ footer a:hover {
 
 .info .quote {
 	color: #ff5757;
+	margin-bottom: 10px;
 }
+.info .quote span {
+	font-family: 'Oswald', sans-serif;
+	font-size: 0.8em;
+	color: #1f1f1f;
+}
+
 
 .info .container {
 	display: grid;
@@ -737,6 +745,13 @@ footer a {
 }
 
 @media only screen and (min-width: 1100px) {
+
+.articlestream .stream {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 20px;
+	padding-right: 20px;
+}
 
 }
 
