@@ -62,6 +62,14 @@
 		color: #FFFFFF;
 	}
 
+	.info h2 {
+		color: #ffffff;
+	}
+
+	.info .quote span {
+		color: #ffffff;
+	}
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -120,6 +128,14 @@
 	}
 
 	.article .related h2 {
+		color: #1f1f1f;
+	}
+
+	.info h2 {
+		color: #1f1f1f;
+	}
+
+	.info .quote span {
 		color: #1f1f1f;
 	}
 
@@ -458,7 +474,6 @@ footer a:hover {
 
 .info h2 {
 	margin-top: 10vw;
-	color: #1f1f1f;
 }
 
 .info .quote {
@@ -468,7 +483,6 @@ footer a:hover {
 .info .quote span {
 	font-family: 'Oswald', sans-serif;
 	font-size: 0.8em;
-	color: #1f1f1f;
 }
 
 
