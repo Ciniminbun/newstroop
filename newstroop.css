@@ -302,6 +302,7 @@ main h2 {
 	width: auto;
 	overflow: hidden;
 	height: 200px;
+	background-color: #000000;
 }
 
 .card img {
@@ -333,9 +334,6 @@ main h2 {
 .carddetails h3 a {
 	text-decoration: none;
 	font-size: 1.1em;
-}
-
-.carddetails h3 a:hover {
 }
 
 .carddetails p {
