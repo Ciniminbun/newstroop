@@ -533,7 +533,7 @@ height: auto;
 }
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
 
 body {
 	font-size: 15px;
